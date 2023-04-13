@@ -1,0 +1,63 @@
+.flex-container{
+	background: grey;
+	background-color: grey;
+	width: 400px;
+	height: 250px;
+	margin-top: 220px;
+	border-radius: 20px;
+	margin-left: 35%;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+label{
+	position: relative;
+}
+input[type="text"]{
+	border: none;
+	width: 320px;
+	height: 45px;
+	padding: 0 20px;
+	border-radius: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	
+
+
+}
+.sub_butt{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: blue;
+	height: 35px;
+	margin-right: 5px;
+	color: white;
+	padding: 0 16px;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+	border-radius: 20px;
+	width: 90px;
+
+
+}
+.sub_butt:hover{
+	transition: 2s;
+	background-color: red;
+
+}
+button{
+	background-color: transparent;
+	border-radius: 20px;
+	color: aquamarine;
+	font-size: 12px;
+	width: 50px;
+	cursor: pointer;
+
+}
+button:hover{
+	transition: 1s;
+	background-color: blue;
+}
