@@ -51,16 +51,3 @@ input[type=submit]:hover{
 	background-color: red;
 
 }
-button{
-	background-color: transparent;
-	border-radius: 20px;
-	color: aquamarine;
-	font-size: 12px;
-	width: 50px;
-	cursor: pointer;
-
-}
-button:hover{
-	transition: 1s;
-	background-color: blue;
-}
