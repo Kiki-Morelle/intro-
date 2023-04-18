@@ -28,7 +28,7 @@ input[type="text"]{
 
 
 }
-.sub_butt{
+input[type=submit]{
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -46,7 +46,7 @@ input[type="text"]{
 
 
 }
-.sub_butt:hover{
+input[type=submit]:hover{
 	transition: 2s;
 	background-color: red;
 
