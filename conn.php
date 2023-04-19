@@ -1,5 +1,8 @@
 <?php
-$con = @mysqli_connect("localhost", "root", "", "basic");
+$con =  new mysqli("localhost", "root","", "new");
 if(!$con){
-  echo "Connection failed!".@mysqli_error($con);
+	echo"connection fail";
+}
+else{
+	echo "connection success";
 }
